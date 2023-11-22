@@ -21,10 +21,28 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.canadianpedro.speechToText"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "Allow Voice to Text Tutorial to access the microphone",
+          "speechRecognitionPermission": "Allow Voice to Text Tutorial to securely recognize user speech"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a21f1958-e3f2-4264-b909-8ef17c1ed21e"
+      }
     }
   }
 }

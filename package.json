@@ -9,7 +9,10 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-voice/voice": "^3.2.4",
+    "eas-cli": "^3.14.0",
     "expo": "~48.0.18",
+    "expo-dev-client": "~2.2.1",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-native": "0.71.8"
